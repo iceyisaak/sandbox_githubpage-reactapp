@@ -10,12 +10,13 @@ source: https://www.youtube.com/watch?v=SKXkC4SqtRk
 
 ### Steps to deploying with gh-pages
 
-1. Run `npm install gh-pages`
-2. Add `"deploy": "gh-pages -d build"` to the Script in the `package.json`
+1. Run `npm run build`
+2. Run `npm install gh-pages`
+3. Add `"deploy": "gh-pages -d build"` to the Script in the `package.json`
    - the `build` folder, _by ReactJS default_, contains files to be deployed on the Github Page
-3. Add `"homepage": "https://<USERNAME>.github.io/<PROJECT-NAME_LOWERCASE>"` as a new property
-4. Run `npm run deploy`
-5. Access the link provided by Github under `settings > Options > Github Pages`
+4. Add `"homepage": "https://<USERNAME>.github.io/<PROJECT-NAME_LOWERCASE>"` as a new property
+5. Run `npm run deploy`
+6. Access the link provided by Github under `settings > Options > Github Pages`
 
 ---
 
